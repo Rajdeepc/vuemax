@@ -1,0 +1,8 @@
+// features images
+
+
+
+
+export {
+    registraionImg
+}
