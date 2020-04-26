@@ -27,8 +27,8 @@ if(process.env.NODE_ENV === 'production'){
 }
 
 // MongoDB connection string
-const MONGO_LOCAL_URI = `mongodb://${process.env.MONGODB_USER}:${process.env.MONGODB_PASS}@ds341837.mlab.com:41837/urlshortener`;
-mongoose.connect(process.env.MONGOLAB_URI || MONGO_LOCAL_URI)
+const MONGO_DB_CONN_STRING= `mongodb://${process.env.MONGODB_USER}:${process.env.MONGODB_PASS}@${process.env.MONGODB_URI}`;
+mongoose.connect(process.env.MONGOLAB_URI || MONGO_DB_CONN_STRING)
 .then(() => console.log("New connection established"))
 .catch(err => console.log('Something went wrong' + err))
 
