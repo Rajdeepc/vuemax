@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>A Full Stack Boilerplate built with</h1>
+    <h1>{{message}}</h1>
     <a href="https://github.com/Rajdeepc/vue-node-boilerplate.git"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     <div class="section">
       <h5>Front End:</h5>
@@ -51,7 +51,12 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  data(){
+    return {
+      message:'A Full Stack Boilerplate built with'
+    }
+  }
 };
 </script>
 
