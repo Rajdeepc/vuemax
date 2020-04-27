@@ -3,7 +3,8 @@
 A full stack starter kit which you can use fast tracking your full stack development. Just clone the repo and you are on your way.
 
 ### Usage Instruction
-![Medium](https://medium.com/@rajrock38/full-stack-boilerplate-saves-the-day-9a13ef2ab863)
+
+[Medium](https://medium.com/@rajrock38/full-stack-boilerplate-saves-the-day-9a13ef2ab863)
 
 ### Built With
 
